@@ -33,6 +33,8 @@
         <div class="title">
           {%- if entry.html -%}
             <a href="{{entry.html}}">{{entry.title}}</a>
+          {%- else -%}
+            {{entry.title}}
           {%- endif -%}
         </div>
         <!-- Author -->
