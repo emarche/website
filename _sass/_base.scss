@@ -30,6 +30,9 @@ a, table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+  .scrollable-element {
+    scrollbar-color: blue;
+  }
 }
 
 figure, img {
@@ -93,8 +96,6 @@ blockquote {
 // Profile
 
 .profile {
-  width: 100%;
-
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -132,7 +133,6 @@ blockquote {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -309,7 +309,6 @@ footer.sticky-bottom {
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
-
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
@@ -485,22 +484,24 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    margin-bottom: 2rem;
+
   }
   ol.bibliography {
     list-style: none;
     padding: 0;
     margin-top: 0;
-
     li {
       margin-bottom: 1rem;
       .preview {
         width: 100%;
-        min-width: 80px;
-        max-width: 200px;
       }
       .abbr {
         height: 2rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: auto;
+        margin-top: auto;
+        text-align: center;
+
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
@@ -519,7 +520,11 @@ footer.sticky-bottom {
         }
       }
       .title {
+        width: 637px;
         font-weight: bolder;
+      }
+      .periodical{
+        width: 637px;
       }
       .author {
         a {
@@ -563,7 +568,8 @@ footer.sticky-bottom {
           color: $black-color;
           height: 100%;
           padding-left: 0.5rem;
-          vertical-align: middle;
+          vertical-align: center;
+
           &:hover {
             text-decoration: underline;
           }
@@ -642,13 +648,21 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
+
+
 // Extra Markdown style (post Customization)
 .post{
+  .post-about{
+    width: 80%;
+    margin: auto;
+  }
+
   .post-meta{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
+
   .post-tags{
     color: var(--global-text-color-light);
     font-size: 0.875rem;
@@ -667,6 +681,17 @@ html.transition *:after {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
     }
+  }
+
+  .post-image {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 30%;
+    float: right;
+  }
+
+  .post-abstract {
+    text-align: justify;
   }
 }
 

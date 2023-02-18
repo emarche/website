@@ -1,25 +1,29 @@
 ---
 layout: about
-title: about
+title: about  # menu bar title
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <strong>Postdoctoral</strong> Research Associate<br>
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Northeastern University</p>
+    <p>805 Columbus Ave</p>
+    <p>ISEC 534</p>
+    <p>Boston, MA 02215</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Postdoctoral Research Associate with the <a href="https://www.khoury.northeastern.edu/people/enrico-marchesini">Khoury College of Computer Science</a> at <a href="https://www.northeastern.edu">Northeastern University</a> advised by <a href="https://www.khoury.northeastern.edu/people/chris-amato/">Prof. Christopher Amato</a>, in the <a href="https://llpr.ccs.neu.edu">Lab for Learning and Planning in Robotics (LLPR)</a>. Two weeks before joining LLPR in April 2022, I received my Ph.D. at the University of Verona, advised by <a href="http://profs.sci.univr.it/~farinelli">Prof. Alessandro Farinelli</a>. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My <strong>research interests</strong> are driven by the impact that Deep Reinforcement Learning (RL) could have in real-world domains, where effective <em>exploration</em>, <em>safety</em>, and <em>asynchronous execution</em> are key requirements for autonomous learning agents. Hence, I focus on developing Deep RL algorithms aimed at tackling these fundamental challenges in simulation, <em>robotics</em>, and <em>multi-agent</em> systems. I am currently working on safe population-based RL, with a particular emphasis on asynchronous Multi-Agent RL. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of work, I spend time climbing and hiking.
+
+**<font color=red>This website is still under construction.</font>**
+
