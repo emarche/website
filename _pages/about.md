@@ -24,6 +24,3 @@ I am a Postdoctoral Research Associate with the <a href="https://www.khoury.nort
 My <strong>research interests</strong> are driven by the impact that Deep Reinforcement Learning (RL) could have in real-world domains, where effective <em>exploration</em>, <em>safety</em>, and <em>asynchronous execution</em> are key requirements for autonomous learning agents. Hence, I focus on developing Deep RL algorithms aimed at tackling these fundamental challenges in simulation, <em>robotics</em>, and <em>multi-agent</em> systems. I am currently working on safe population-based RL, with a particular emphasis on asynchronous Multi-Agent RL. 
 
 Outside of work, I spend time climbing and hiking.
-
-**<font color=red>This website is still under construction.</font>**
-
