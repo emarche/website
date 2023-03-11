@@ -191,9 +191,9 @@
 }
 
 @INPROCEEDINGS{IRC2020,
-    title={Discrete Deep Reinforcement Learning for Mapless Navigation}, 
-    author={Marchesini, Enrico and Farinelli, Alessandro},
-    abstract = {Our goal is to investigate whether discrete state space algorithms are a viable solution to continuous alternatives for mapless navigation. To this end we present an approach based on Double Deep Q-Network and employ parallel asynchronous training and a multi-batch Priority Experience Replay to reduce the training time. Experiments show that our method trains faster and outperforms both the continuous Deep Deterministic Policy Gradient and Proximal Policy Optimization algorithms. Moreover, we train the models in a custom environment built on the recent Unity learning toolkit and show that they can be exported on the TurtleBot3 simulator and to the real robot without further training. Overall our optimized method is 40%  faster compared to the original discrete algorithm. This setting significantly reduces the training times with respect to the continuous algorithms, maintaining a similar level of success rate hence being a viable alternative for mapless navigation.},
+    title={Formal Verification for Safe Deep Reinforcement Learning in Trajectory Generation}, 
+    author={Corsi, Davide and Marchesini, Enrico and Farinelli, Alessandro},
+    abstract = {We consider the problem of Safe Deep Reinforcement Learning (DRL) using formal verification in a trajectory generation task. In more detail, we propose an approach to verify whether a trained model can generate trajectories that are guaranteed to meet safety properties (e.g., operate in a limited work-space). We show that our verification approach based on interval analysis, provably guarantees whether a model meets pre-specified safety properties and it returns the input values that cause a violation of such properties. Furthermore, we show that an optimized DRL approach (i.e., using scaling discount factor and a mixed exploration policy based on a directional controller) can reach the target with millimeter precision while reducing the set of inputs that cause safety violations. Crucially, in our experiments, the number of undesirable inputs is so low that they can be directly removed with a simple controller.},
     booktitle={2020 Fourth IEEE International Conference on Robotic Computing (IRC)}, 
     pages={352-359},
     doi={10.1109/IRC.2020.00062},
@@ -213,7 +213,7 @@
     pages = {1919–1921},
     isbn = {9781450375184},
     year = {2020},
-    pdf={AAMAS_2020_geneticrl.pdf},
+    pdf={AAMAS2020_geneticrl.pdf},
     abbr={AAMAS},
     bibtex_show={true},
     selected={false},
