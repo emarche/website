@@ -8,11 +8,11 @@ profile:
   align: left
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
-  address: >
+  <!--address: >
     <p>Northeastern University</p>
     <p>805 Columbus Ave</p>
     <p>ISEC 534</p>
-    <p>Boston, MA 02215</p>
+    <p>Boston, MA 02215</p>-->
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
